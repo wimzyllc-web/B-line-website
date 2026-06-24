@@ -31,23 +31,9 @@ const greatVibes = Great_Vibes({
 export const metadata: Metadata = {
   title: 'B-Line Branding | The Direct Route to a Beautiful Brand',
   description: 'B-Line Branding helps small businesses cut through the noise. We combine a sharp eye for design with strategic execution to build brands that get noticed and remembered.',
-  generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.png',
+    apple: '/icon.png',
   },
 }
 
@@ -64,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable} ${fraunces.variable} bg-background`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} ${fraunces.variable} ${greatVibes.variable} bg-background`}>
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

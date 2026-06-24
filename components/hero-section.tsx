@@ -15,10 +15,13 @@ export function HeroSection() {
       <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center gap-8 md:flex-row md:gap-12 lg:gap-20">
         {/* Left side - Typography */}
         <div className="flex flex-1 flex-col justify-center pt-8 md:pt-0">
-          <div className="mb-6 inline-flex items-center gap-2">
-            <span className="h-px w-8 bg-accent" />
-            <span className="text-sm font-medium uppercase tracking-widest text-accent">
-              B-Line Branding
+          <div className="mb-6 inline-flex items-baseline gap-3">
+            <span className="h-px w-8 self-center bg-accent" />
+            <span className="font-[family-name:var(--font-script)] text-4xl leading-none text-accent sm:text-5xl">
+              B-Line
+            </span>
+            <span className="text-base font-medium uppercase tracking-[0.3em] text-accent sm:text-lg">
+              Branding
             </span>
           </div>
           
