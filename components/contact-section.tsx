@@ -34,13 +34,13 @@ export function ContactSection() {
             </h3>
             
             <a
-              href="tel:801-824-3234"
+              href="tel:385-269-9258"
               className="group flex items-center gap-4 text-lg text-foreground/80 transition-colors hover:text-accent"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-full border border-border transition-all duration-300 group-hover:border-accent group-hover:bg-accent group-hover:text-accent-foreground">
                 <Phone className="h-5 w-5" />
               </div>
-              <span>801-824-3234</span>
+              <span>385-269-9258</span>
             </a>
             
             <a
